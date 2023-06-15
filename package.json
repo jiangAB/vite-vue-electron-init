@@ -1,0 +1,21 @@
+{
+  "name": "vite-vue-electron-init",
+  "private": true,
+  "version": "0.0.0",
+  "main": "main.js",
+  "author": "jiangjin514@foxmail.com",
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite | nodemon --exec electron . --watch ./ .html,.js,.vue,.css"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.1.0",
+    "electron": "^19.0.8",
+    "electron-win-state": "^1.1.22",
+    "vite": "^4.3.9"
+  }
+}
